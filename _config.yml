@@ -1,0 +1,6 @@
+markdown: kramdown
+highlighter: true
+
+name: Communications from cstar industries
+description: Eric Cestari writes about mostly Erlang and the cloud.
+url: http://cstar.io/blog.html

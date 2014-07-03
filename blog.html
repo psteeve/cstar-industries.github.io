@@ -1,13 +1,10 @@
 ---
-layout: "default"
+layout: "page"
 logo: true
+title: Official communications from cstar&nbsp;industries <small>a.k.a the BLOG</small>
 ---
-
-<h1>Latest blogs entries</h1>
-
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a><p> {{ page.abstract }}</li>
     {% endfor %}
   </ul>
-  
