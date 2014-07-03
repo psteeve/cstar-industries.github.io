@@ -22,7 +22,7 @@ Although what I like with Rails is how easily it can be deployed and scaled on H
 
 I wanted the same for my Nitrogen app.
 
-A quick Google search came up with not much,it was a job I had to do myself!
+A quick Google search came up with not much; it was a job I had to do myself!
 
 ##Hummmph, that was easy
 
