@@ -18,15 +18,14 @@ The other is Nitrogen + DynamoDB.
 On the former, I keep hopping from language to language, framework to framework, enabling one layer to talk to the other.
 On the latter, I just write Erlang for both client and server. Nitrogen takes care of the rest. I love that.
 
-Although what I like with Rails is how easily it can be deployed and scaled on Heroku.
+But Rails can be so easily deployed and scaled on Heroku. I wanted the same for my Nitrogen app.
 
-I wanted the same for my Nitrogen app.
-
-A quick Google search came up with not much; it was a job I had to do myself!
+A quick Google search came up with not much; I guess it was a job for me!
 
 ##Hummmph, that was easy
 
-I wrote a small skeleton project, [cstar/nitrogen-on-heroku](https://github.com/cstar/nitrogen-on-heroku) with Cowboy as the webserver.
+Here is a skeleton project [cstar/nitrogen-on-heroku](https://github.com/cstar/nitrogen-on-heroku) with Cowboy as the webserver.
+How to use :
 
 1. Pull [cstar/nitrogen-on-heroku](https://github.com/cstar/nitrogen-on-heroku)
 2. Write your awesome Nitrogen app
