@@ -1,0 +1,113 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+// Variables
+@import 'variables';
+
+
+BODY {
+  background-color: white;
+  margin: 0;
+  color: $mainFont;
+  font-family: 'Titillium', sans-serif;
+}
+
+HEADER {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 200px 0;
+}
+
+#logo {
+  max-width: 300px;
+  max-height: 70px;
+}
+
+.title {
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 1.08;
+}
+
+.title2 {
+  font-weight: bold;
+  line-height: 1.08;
+  font-size: 45px;
+}
+
+#cstarTitle {
+  color: $pink;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.subtitleLight{
+  font-size: 25px;
+}
+
+.section1 {
+}
+
+.section2 {
+  margin-top: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logosClients {
+  width: 10vw;
+  height: 100%;
+}
+
+.section3 {
+  margin-top: 25vh;
+  height: 500px;
+  background-color: $lightPink;
+  padding: 10px;
+}
+
+#sec3 {
+  margin-top: 15vh;
+}
+
+.avatarTeam{
+  width: 100px;
+  height: 100px;
+  background-color: $pink;
+}
+
+.section4 {
+  margin-top: 25vh;
+}
+
+.subSection4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section5 {
+  background-color: $blue;
+  margin: 25vh 0 15vh 0;
+  height: 500px;
+  padding: 10px;
+}
+
+.topSection5{
+  margin-top: 10vh;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.middleSection5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
