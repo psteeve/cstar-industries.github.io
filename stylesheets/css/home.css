@@ -83,9 +83,10 @@ HEADER {
 
 .section5 {
   background-color: #e3f2fd;
-  margin: 25vh 0 15vh 0;
+  margin-top: 25vh;
   height: 500px;
   padding: 10px;
+  margin-bottom: 10vh;
 }
 
 .topSection5 {
