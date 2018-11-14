@@ -1,15 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 BODY {
   background-color: white;
-  margin: 0;
   color: #000000;
   font-family: "Titillium", sans-serif;
 }
 
+.col-lg-6 {
+  padding: 0;
+}
+
 HEADER {
-  display: flex;
-  justify-content: space-between;
   margin: 100px 0 200px 0;
+}
+
+.btn {
+  background-color: black;
+  color: #e3f2fd;
 }
 
 #logo {
@@ -38,15 +44,17 @@ HEADER {
   font-weight: bold;
 }
 
+.subtitleRight {
+  text-align: right;
+}
+
 .subtitleLight {
   font-size: 25px;
+  margin-bottom: 10vh;
 }
 
 .section2 {
   margin-top: 25vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logosClients {
@@ -56,52 +64,35 @@ HEADER {
 
 .section3 {
   margin-top: 25vh;
-  height: 500px;
+  min-height: 500px;
   background-color: #fce4ec;
-  padding: 10px;
+  padding: 50px 0 0 50px;
 }
 
 #sec3 {
   margin-top: 15vh;
-}
-
-.avatarTeam {
-  width: 100px;
-  height: 100px;
-  background-color: #e91e63;
+  margin-bottom: 5vh;
 }
 
 .section4 {
   margin-top: 25vh;
 }
 
-.subSection4 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .section5 {
   background-color: #e3f2fd;
   margin-top: 25vh;
-  height: 500px;
-  padding: 10px;
-  margin-bottom: 10vh;
+  margin-bottom: 25vh;
+  min-height: 500px;
+  padding: 50px 50px 0 50px;
 }
 
 .topSection5 {
   margin-top: 10vh;
   width: 100%;
-  height: max-content;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
 .middleSection5 {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 /*# sourceMappingURL=home.css.map */
