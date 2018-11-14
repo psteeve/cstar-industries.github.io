@@ -103,4 +103,12 @@ HEADER {
   width: 100%;
 }
 
+.socialMedia {
+  width: 170px;
+  margin-bottom: 30px;
+}
+.socialMedia h2 {
+  font-size: 25px;
+}
+
 /*# sourceMappingURL=home.css.map */

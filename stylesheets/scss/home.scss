@@ -60,7 +60,6 @@ HEADER {
 .subtitleLight{
   font-size: 25px;
   margin-bottom: 10vh;
-
 }
 
 .section1 {
@@ -112,13 +111,19 @@ HEADER {
 .topSection5{
   margin-top: 10vh;
   width: 100%;
-  // display: flex;
-  // justify-content: space-between;
+
   // align-items: baseline;
 }
 
 .middleSection5 {
   width: 100%;
-  // display: flex;
-  // justify-content: space-between;
+
+}
+
+.socialMedia {
+  width: 170px;
+    h2{
+      font-size: 25px;
+    }
+  margin-bottom: 30px;
 }
