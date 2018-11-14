@@ -9,6 +9,10 @@ BODY {
   padding: 0;
 }
 
+.card {
+  border: none;
+}
+
 HEADER {
   margin: 100px 0 200px 0;
 }
@@ -55,6 +59,10 @@ HEADER {
 
 .section2 {
   margin-top: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
 }
 
 .logosClients {
