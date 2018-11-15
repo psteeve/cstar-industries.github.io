@@ -86,8 +86,12 @@ HEADER {
   padding: 50px 0 0 50px;
 }
 
-#sec3 {
+.sec3 {
   margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.sec4 {
   margin-bottom: 5vh;
 }
 
@@ -107,7 +111,31 @@ HEADER {
   margin-bottom: 25vh;
   min-height: 500px;
   padding: 50px 50px 0 50px;
-  }
+}
+
+%sectionTexts {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  min-height: 500px;
+  padding: 50px 50px 0 50px;
+}
+
+.sectionText1 {
+  @extend %sectionTexts;
+  background-color: #F3E5F5;
+}
+.sectionText2 {
+  @extend %sectionTexts;
+  background-color: #EDE7F6;
+}
+.sectionText3 {
+  @extend %sectionTexts;
+  background-color: #E8EAF6;
+}
+.sectionText4 {
+  @extend %sectionTexts;
+  background-color: #E1F5FE;
+}
 
 .topSection5{
   margin-top: 10vh;
