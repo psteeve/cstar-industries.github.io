@@ -58,11 +58,11 @@ HEADER {
 }
 
 .section1 {
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .section2 {
-  margin-top: 25vh;
+  margin-bottom: 25vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,10 +86,6 @@ HEADER {
   margin-bottom: 5vh;
 }
 
-.sec4 {
-  margin-bottom: 5vh;
-}
-
 .section4 {
   margin-top: 25vh;
 }
@@ -103,8 +99,8 @@ HEADER {
 }
 
 .sectionText4, .sectionText3, .sectionText2, .sectionText1 {
-  margin-top: 25vh;
-  margin-bottom: 25vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   min-height: 500px;
   padding: 50px 50px 0 50px;
 }
