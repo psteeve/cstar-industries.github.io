@@ -44,6 +44,7 @@ HEADER {
 }
 
 .subtitle {
+  color: black !important;
   font-size: 25px;
   font-weight: bold;
 }
@@ -58,7 +59,11 @@ HEADER {
 }
 
 .section1 {
-  min-height: 400px;
+  min-height: 350px;
+}
+
+.asterix {
+  font-size: 20px;
 }
 
 .section2 {
