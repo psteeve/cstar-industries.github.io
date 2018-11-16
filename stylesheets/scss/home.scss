@@ -145,9 +145,8 @@ HEADER {
 }
 
 .socialMedia {
-  width: 170px;
-    h2{
-      font-size: 25px;
-    }
+  width: 200px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
 }

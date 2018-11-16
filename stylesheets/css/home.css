@@ -136,11 +136,10 @@ HEADER {
 }
 
 .socialMedia {
-  width: 170px;
+  width: 200px;
   margin-bottom: 30px;
-}
-.socialMedia h2 {
-  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=home.css.map */
