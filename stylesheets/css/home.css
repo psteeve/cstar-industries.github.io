@@ -22,6 +22,12 @@ HEADER {
   color: #e3f2fd;
 }
 
+.btn-submit {
+  background-color: #e91e63;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 #logo {
   max-width: 300px;
   max-height: 70px;
@@ -37,6 +43,12 @@ HEADER {
   font-weight: bold;
   line-height: 1.08;
   font-size: 45px;
+}
+
+.title3 {
+  font-weight: bold;
+  line-height: 1.08;
+  font-size: 40px;
 }
 
 #cstarTitle {
@@ -103,6 +115,10 @@ HEADER {
   padding: 50px 50px 0 50px;
 }
 
+.section6 {
+  margin-bottom: 5vh;
+}
+
 .sectionText4, .sectionText3, .sectionText2, .sectionText1 {
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -140,6 +156,25 @@ HEADER {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.text {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.textIntroListe {
+  margin-bottom: 0;
+}
+
+.inputText {
+  height: 8vh;
+  text-align: left;
+}
+
+.textArea {
+  height: 20vh;
+  text-align: left;
 }
 
 /*# sourceMappingURL=home.css.map */
