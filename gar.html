@@ -1,69 +1,388 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheets/css/home.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/css/home.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body>
+  <body class="background">
     <main class="container">
-      <header class="row">
+      <header class="row section8">
         <div class="col-lg-6 col-sm-12">
-          <img class="float-left" id="logo" src="./images/logo-lg.png" alt="logo Cstar">
+          <img src="./images/logo-garninja-baseline.png" alt="logo Gar Ninja" />
         </div>
-        <div class="col-lg-6 col-sm-12">
-          <h1 class="subtitle text-md-right">Solution GAR par Cstar Industries</h1>
+        <div class="col-lg-6 col-sm-12 imageContainer">
+          <img
+            id="logo"
+            class="logo-small"
+            src="./images/logo-lg.png"
+            alt="logo Cstar"
+          />
         </div>
       </header>
-      <section class="container-sm-fluid row section2">
-        <h2><span class="font-weight-bold">GarJack</span>, votre outil pour vous connecter au GAR</h2>
+      <section class="container-sm-fluid row section6">
+        <h3 class="title3">
+          Vous souhaitez vous connecter au GAR, le Gestionnaire d'Accès aux
+          Ressources de l’Education Nationale ?
+        </h3>
       </section>
       <section class="container-sm-fluid row section6">
-        <h3 class="title3">Vous souhaitez vous connecter au GAR, le Gestionnaire d'accès aux ressources de l’Education Nationale ?</h1>
+        <p class="text font-italic">
+          Le GAR est un service sécurisé d'accès aux ressources numériques pour
+          les collèges, lycées et écoles primaires (manuels, encyclopédies,
+          ressources multimédia, etc.) dans un cadre juridique assuré par le
+          Ministère.
+        </p>
+      </section>
+      <section class="container-sm-fluid row section7">
+        <p class="text font-weight-bold">
+          Que vous soyez fournisseur de ressources ou industriel du numérique
+          spécialisé dans le contenu dédié au milieu scolaire, vous connecter au
+          GAR représente une réelle opportunité de visibilité pour votre contenu
+          éducatif.
+        </p>
       </section>
       <section class="container-sm-fluid row">
-        <p class="text">
-          Que vous soyez fournisseurs de ressources ou industriels du numérique spécialisé dans le contenu dédié au milieu scolaire, vous connecter au GAR vous permettra de faciliter l’accès à votre contenu tout en garantissant la protection des données des élèves et des enseignants.
-        </p>
-        <p class="text">
-          CStar Industrie accompagne depuis 2018 des éditeurs comme Le Génie ou Madmagz en proposant une solution clé en main pour se connecter au GAR. Fort de cette expérience et de la connaissance des évolutions concernant le GAR, nous souhaitons développer notre activité et proposer notre outil à tous les partenaires susceptibles d’être intéressés par une solution complète et évolutive ainsi que d’un accompagnement privilégié dans la mise en place du connecteur GAR.
+        <p class="text textUnderline">
+          Au 31 janvier 2019, le GAR est déjà accessible pour :
         </p>
       </section>
-      <section class="container-sm-fluid row section6">
-        <p class="text textIntroListe">Nous nous distinguons en proposant :</p>
-        <ul class="text">
-          <li>un outil de gestion abonnement en SAS permettant un déploiement rapide</li>
-          <li>un service sso unique</li>
-          <li>une gestion des notices simplifiée (modification et publipostage)</li>
-          <li>un service de maintenance avec des mises à jours régulières</li>
+      <section class="container-sm-fluid row section7">
+        <div class="col-lg-4">
+          <div class="text-center">
+            <img
+              alt="académie"
+              src="./images/chapeau-school_black.png"
+              class="pictogramme"
+            />
+            <p class="text text-center">12<br />académies</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center">
+            <img
+              alt="établissement"
+              src="./images/bureau-school_black.png"
+              class="pictogramme"
+            />
+            <p class="text text-center">1170<br />établissements</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center">
+            <img
+              alt="élèves"
+              src="./images/bag-school_black.png"
+              class="pictogramme"
+            />
+            <p class="text text-center">
+              + de 677 000 élèves<br />et enseignants
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-sm-fluid row section7">
+        <p class="text">
+          CSTAR INDUSTRIES accompagne depuis 2017 des éditeurs comme
+          <span class="font-weight-bold">Texte Image, Le Génie</span> ou
+          <span class="font-weight-bold">Madmagz</span> avec une solution clef
+          en main pour se connecter au GAR.
+        </p>
+        <p class="text">
+          Forts de cette expérience et de la connaissance des nouvelles
+          fonctionnalités proposées par le GAR, nous avons créé
+          <span class="font-weight-bold">GAR NINJA</span> :
+        </p>
+        <ul class="text puce-shuriken">
+          <li>une solution complète et évolutive pour vous connecter au GAR</li>
+          <li>
+            un accompagnement personnalisé qui s'adapte aux particularités de
+            votre société
+          </li>
+        </ul>
+      </section>
+      <section class="container-sm-fluid row section7">
+        <p class="text">
+          <span class="font-weight-bold"
+            >Avec GAR NINJA, vous bénéficiez de :</span
+          >
+        </p>
+        <ul class="text puce-shuriken">
+          <li>
+            une gestion simplifiée des notices (modification et publipostage)
+          </li>
+          <li>
+            une implémentation SSO en SAML ou en CAS
+          </li>
+          <li>
+            une interface de gestion des abonnements en SaaS ou
+            <span class="font-italic">on-premise</span>
+          </li>
+          <li>
+            un service de maintenance avec des mises à jours régulières
+            contenant les dernières fonctionnalités proposées par le GAR
+          </li>
+          <li>
+            un accompagnement privilégié dans toutes les étapes de connexion au
+            GAR
+          </li>
         </ul>
       </section>
       <section class="container-sm-fluid section6">
-        <h4 class="font-weight-bold">Vous souhaitez nous rencontrer et rejoindre le GAR?</h4>
-        <p class="text">Contactez-nous via notre formulaire ci-dessous.</p>
+        <h4 class="font-weight-bold">
+          Le GAR est une opportunité, avec GAR NINJA saisissons-la ensemble !<br />Contactez-nous
+          :
+        </h4>
       </section>
-      <form method="POST">
-        <div class="form-group col-4">
-          <input type="text" name="nom" class="form-control input-group-text inputText" placeholder="Vos nom et prénom">
+      <!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form
+          action="https://cstar.us14.list-manage.com/subscribe/post?u=100a7b31202963e2681f05ebf&amp;id=6b084a789d"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate form"
+          target="_blank"
+          novalidate
+        >
+          <div id="mc_embed_signup_scroll">
+            <div class="indicates-required">
+              <span class="asterisk">*</span> Champs obligatoires
+            </div>
+            <div class="form-row">
+              <div class="mc-field-group form-group col-6">
+                <input
+                  type="text"
+                  value=""
+                  name="FNAME"
+                  class="required form-control input-group-text inputText formInput"
+                  id="mce-FNAME"
+                  placeholder="Votre nom *"
+                />
+              </div>
+              <div class="mc-field-group form-group col-6">
+                <input
+                  type="text"
+                  value=""
+                  name="LNAME"
+                  class="required form-control input-group-text inputText formInput"
+                  id="mce-LNAME"
+                  placeholder="Votre prénom *"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="mc-field-group form-group col-6">
+                <input
+                  type="text"
+                  value=""
+                  name="COMPANY"
+                  class="required form-control input-group-text inputText formInput"
+                  id="mce-COMPANY"
+                  placeholder="Votre société *"
+                />
+              </div>
+              <div class="mc-field-group form-group col-6">
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email form-control input-group-text inputText formInput"
+                  id="mce-EMAIL"
+                  placeholder="Votre email *"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="mc-field-group form-group col-12">
+                <textarea
+                  value=""
+                  name="MESSAGE"
+                  class="required form-control input-group-text textArea formInput"
+                  id="mce-MESSAGE"
+                  placeholder="Votre message *"
+                ></textarea>
+              </div>
+            </div>
+            <div>
+              <!-- <label class="gdpr-label">Marketing Permissions</label> -->
+              <p class="gdpr-text">
+                Les informations seront utilisées par les services internes de
+                CSTAR INDUSTRIES et seront exclusivement destinées à
+                l'identification de l’utilisateur, au traitement complet de sa
+                demande, à des fins statistiques, et plus généralement à la
+                gestion de la relation client. Les données marquées d'un
+                astérisque, nécessaires aux traitements précédemment énoncés,
+                sont obligatoires. Toutes les autres informations sont
+                facultatives, en cas de non-renseignement, CSTAR INDUSTRIES ne
+                pourra traiter la demande du client.
+              </p>
+              <p class="gdpr-text">
+                L'utilisateur dispose de l'ensemble des droits prévus par la loi
+                n°78-17 du 6 janvier 1978 "Informatique et Libertés", et
+                notamment d'un droit d'accès, de rectification, de suppression
+                des données le concernant et d'opposition à leur traitement.
+                L'utilisateur peut, à tout moment, exercer son droit en
+                adressant sa demande par courrier à CSTAR INDUSTRIES, 110 Bd de
+                Verdun 94120 FONTENAY SOUS BOIS FRANCE.
+              </p>
+              <!-- <div class="gdpr-footer">
+                <a href="https://www.mailchimp.com/gdpr" target="_blank"
+                  ><img
+                    src="https://cdn-images.mailchimp.com/icons/mailchimp-gdpr.svg"
+                    alt="GDPR"
+                /></a>
+                <p>
+                  We use Mailchimp as our marketing platform. By clicking below
+                  to subscribe, you acknowledge that your information will be
+                  transferred to Mailchimp for processing.
+                  <a href="https://mailchimp.com/legal/" target="_blank"
+                    >Learn more about Mailchimp's privacy practices here.</a
+                  >
+                </p>
+              </div> -->
+            </div>
+            <div id="mce-responses" class="clear">
+              <div
+                class="response"
+                id="mce-error-response"
+                style="display:none"
+              ></div>
+              <div
+                class="response"
+                id="mce-success-response"
+                style="display:none"
+              ></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_100a7b31202963e2681f05ebf_6b084a789d"
+                tabindex="-1"
+                value=""
+              />
+            </div>
+            <div class="form-row center">
+              <div class="form-group col-lg-4 noPadding">
+                <button
+                  id="mc-embedded-subscribe"
+                  type="submit"
+                  class="button btn btn-submit col-12"
+                  name="subscribe"
+                >
+                  Valider
+                </button>
+              </div>
+            </div>
+            <!-- <div class="clear">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button"
+              />
+            </div> -->
+          </div>
+        </form>
+      </div>
+
+      <!--End mc_embed_signup-->
+      <!-- <form
+        method="POST"
+        action="https://gmd1fkg1a8.execute-api.us-east-1.amazonaws.com/dev/recaptcha"
+        class="form"
+      >
+        <div class="form-row">
+          <div class="form-group col-6">
+            <input
+              id="nom"
+              type="text"
+              name="nom"
+              class="form-control input-group-text inputText formInput"
+              placeholder="Votre nom"
+              required
+            />
+          </div>
+          <div class="form-group col-6">
+            <input
+              id="prenom"
+              type="text"
+              name="prenom"
+              class="form-control input-group-text inputText formInput"
+              placeholder="Votre prénom"
+              required
+            />
+          </div>
         </div>
-        <div  class="form-group col-4">
-          <input type="text" name="societe" class="form-control input-group-text inputText" placeholder="Votre société">
+        <div class="form-row">
+          <div class="form-group col-6">
+            <input
+              id="societe"
+              type="text"
+              name="societe"
+              class="form-control input-group-text inputText formInput"
+              placeholder="Votre société"
+              required
+            />
+          </div>
+          <div class="form-group col-6">
+            <input
+              id="mail"
+              type="email"
+              name="mail"
+              class="form-control input-group-text inputText formInput"
+              placeholder="Votre mail"
+              required
+            />
+          </div>
         </div>
-        <div  class="form-group col-4">
-          <input type="text" name="activite" class="form-control input-group-text inputText" placeholder="Votre activité">
+        <div class="form-row">
+          <div class="form-group col-12">
+            <textarea
+              id="message"
+              name="message"
+              class="form-control input-group-text textArea formInput"
+              placeholder="Votre message"
+              required
+            ></textarea>
+          </div>
         </div>
-        <div  class="form-group col-12">
-          <textarea name="message" class="form-control input-group-text textArea" placeholder="Votre message"></textarea>
+        <div class="form-row center">
+          <div
+            class="g-recaptcha form-group"
+            data-sitekey="6LcqR54UAAAAAAQWg_7t3U4Bi6aqex6yX1O5fGNT"
+          ></div>
         </div>
-        <div  class="col form-group">
-          <button type="submit" class="btn btn-submit col-4">Valider</button>
+        <div class="form-row center">
+          <div class="form-group col-lg-4 noPadding">
+            <button id="valider" type="submit" class="btn btn-submit col-12">
+              Valider
+            </button>
+          </div>
         </div>
-      </form>
+      </form> -->
     </main>
   </body>
 </html>

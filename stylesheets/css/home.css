@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
-BODY {
+body {
   background-color: white;
   color: #000000;
   font-family: "Titillium", sans-serif;
@@ -13,7 +13,7 @@ BODY {
   border: none;
 }
 
-HEADER {
+header {
   margin: 100px 0 200px 0;
 }
 
@@ -30,6 +30,11 @@ HEADER {
 
 #logo {
   max-width: 300px;
+  max-height: 70px;
+}
+
+#logo.logo-small {
+  max-width: 200px;
   max-height: 70px;
 }
 
@@ -119,7 +124,19 @@ HEADER {
   margin-bottom: 5vh;
 }
 
-.sectionText4, .sectionText3, .sectionText2, .sectionText1 {
+.section7 {
+  margin-bottom: 10vh;
+}
+
+.section8 {
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+.sectionText4,
+.sectionText3,
+.sectionText2,
+.sectionText1 {
   margin-top: 10vh;
   margin-bottom: 10vh;
   min-height: 500px;
@@ -127,19 +144,19 @@ HEADER {
 }
 
 .sectionText1 {
-  background-color: #F3E5F5;
+  background-color: #f3e5f5;
 }
 
 .sectionText2 {
-  background-color: #EDE7F6;
+  background-color: #ede7f6;
 }
 
 .sectionText3 {
-  background-color: #E8EAF6;
+  background-color: #e8eaf6;
 }
 
 .sectionText4 {
-  background-color: #E1F5FE;
+  background-color: #e1f5fe;
 }
 
 .topSection5 {
@@ -167,14 +184,96 @@ HEADER {
   margin-bottom: 0;
 }
 
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  text-align: left;
+  background-color: unset;
+}
+
 .inputText {
   height: 8vh;
-  text-align: left;
 }
 
 .textArea {
-  height: 20vh;
-  text-align: left;
+  height: 12vh;
+}
+
+.textUnderline {
+  text-decoration: underline;
+}
+
+.noSideMargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.pictogramme {
+  width: 100px;
+  margin: 20px;
+}
+
+.imageContainer {
+  text-align: center;
+  align-self: center;
+}
+
+.background {
+  background-color: unset;
+  background: url(../../images/back-tache-rouge2.png), rgba(255, 255, 255, 0.75);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.puce-shuriken {
+  list-style-image: url(../../images/shuriken2.png);
+}
+
+.form {
+  width: 85%;
+  margin: auto;
+}
+
+.gdpr-text {
+  font-size: 13px;
+  text-align: justify;
+  color: #4a4a4a;
+}
+
+.gdpr-label {
+  font-size: 16px;
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+.gdpr-footer {
+  color: #6d6d6d;
+  margin-bottom: 1em;
+  min-height: 65px;
+}
+
+.gdpr-footer img {
+  width: 65px;
+  float: left;
+  margin-right: 15px;
+}
+
+.gdpr-footer p {
+  font-size: 10px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.gdpr-footer a {
+  color: #206578;
 }
 
 /*# sourceMappingURL=home.css.map */
